@@ -4,15 +4,15 @@ if not number_grade.isdigit():
 
 number_grade = int(number_grade)
 if 80 <= number_grade <= 100:
-   print(f"Your grade is: A")
+   print("Your grade is: A")
 elif 60 <= number_grade <= 79:
-    print(f"Your grade is: B")
+    print("Your grade is: B")
 elif 50 <= number_grade <= 59:
-    print(f"Your grade is: C")
+    print("Your grade is: C")
 elif 40 <= number_grade <= 49:
-     print(f"Your grade is: D")
+    print("Your grade is: D")
 elif 0 <= number_grade <= 39:
-    print(f"Your grade is: F")
+    print("Your grade is: F")
 else:
     print("Error: Grades must be between 0 and 100")
     
