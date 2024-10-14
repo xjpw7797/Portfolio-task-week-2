@@ -1,6 +1,8 @@
-number_grade = int(input("Enter a numerical grade between 0 - 100: "))
+number_grade = input("Enter a numerical grade between 0 - 100: ")
+if not number_grade.isdigit():
+    print("Error: Please enter a number")
 
-
+number_grade = int(number_grade)
 if 80 <= number_grade <= 100:
    print(f"Your grade is: A")
 elif 60 <= number_grade <= 79:
@@ -14,5 +16,3 @@ elif 0 <= number_grade <= 39:
 else:
     print("Error: Grades must be between 0 and 100")
     
-if not number_grade.isdigit():
-    print("Error: Please enter a number")
